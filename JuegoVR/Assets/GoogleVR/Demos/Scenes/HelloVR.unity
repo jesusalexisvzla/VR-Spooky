@@ -747,7 +747,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &30708933
 Transform:
   m_ObjectHideFlags: 0
@@ -795,7 +795,7 @@ Transform:
   m_GameObject: {fileID: 31094652}
   m_LocalRotation: {x: 0.6766189, y: 0, z: 0, w: 0.7363334}
   m_LocalPosition: {x: 0.30288565, y: 0.15, z: 0.6070137}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
   m_Children: []
   m_Father: {fileID: 555880723}
   m_RootOrder: 1
@@ -914,13 +914,13 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 31094656}
-          m_MethodName: set_range
+          m_MethodName: set_intensity
           m_Mode: 4
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
-            m_FloatArgument: 30
+            m_FloatArgument: 4
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
@@ -1040,9 +1040,9 @@ Light:
   serializedVersion: 9
   m_Type: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1
+  m_Intensity: 4
   m_Range: 7
-  m_SpotAngle: 105
+  m_SpotAngle: 100
   m_InnerSpotAngle: 1
   m_CookieSize: 10
   m_Shadows:
@@ -6161,8 +6161,8 @@ Light:
   serializedVersion: 9
   m_Type: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 0.5
-  m_Range: 2.2751179
+  m_Intensity: 2
+  m_Range: 7
   m_SpotAngle: 103
   m_InnerSpotAngle: 1
   m_CookieSize: 10
@@ -6200,7 +6200,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 0
@@ -6276,13 +6276,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330602350}
-  m_LocalRotation: {x: 0.6245325, y: 0.007496684, z: -0.0059952415, w: 0.7809398}
-  m_LocalPosition: {x: 0, y: 0.15, z: 0}
+  m_LocalRotation: {x: 0.70703626, y: -0.029190347, z: 0.028304532, w: 0.7060075}
+  m_LocalPosition: {x: 0, y: 0.3, z: 0}
   m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
   m_Children: []
   m_Father: {fileID: 614051748}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 77.3, y: 1.1, z: 0}
+  m_LocalEulerAnglesHint: {x: 90.11, y: 38.4, z: 43.06}
 --- !u!114 &330602356
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6301,19 +6301,19 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 330602351}
-          m_MethodName: set_range
+          m_MethodName: set_intensity
           m_Mode: 4
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
-            m_FloatArgument: 50
+            m_FloatArgument: 4
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
         - m_Target: {fileID: 330602351}
-          m_MethodName: set_intensity
-          m_Mode: 4
+          m_MethodName: 
+          m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -9076,8 +9076,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 437125492}
   m_LocalRotation: {x: 0.6632219, y: -0.24307117, z: 0.25564176, w: 0.6600761}
-  m_LocalPosition: {x: 0.30288565, y: 0.13752556, z: 0.6070137}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_LocalPosition: {x: 0.30288565, y: 0.41, z: 0.6070137}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
   m_Children: []
   m_Father: {fileID: 1642976089}
   m_RootOrder: 1
@@ -9100,13 +9100,13 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 437125495}
-          m_MethodName: set_range
+          m_MethodName: set_intensity
           m_Mode: 4
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
-            m_FloatArgument: 30
+            m_FloatArgument: 4
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
@@ -9132,7 +9132,7 @@ Light:
   serializedVersion: 9
   m_Type: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1
+  m_Intensity: 2
   m_Range: 7
   m_SpotAngle: 105
   m_InnerSpotAngle: 1
@@ -9494,8 +9494,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 476997659}
   m_LocalRotation: {x: 0.09450771, y: 0.69778425, z: -0.7091262, w: 0.036131535}
-  m_LocalPosition: {x: 0.30288565, y: 0.13752556, z: 0.6070137}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_LocalPosition: {x: 0.30288565, y: 0.41, z: 0.6070137}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
   m_Children: []
   m_Father: {fileID: 118688518}
   m_RootOrder: 1
@@ -9518,13 +9518,13 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 476997662}
-          m_MethodName: set_range
+          m_MethodName: set_intensity
           m_Mode: 4
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
-            m_FloatArgument: 30
+            m_FloatArgument: 4
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
@@ -9595,7 +9595,7 @@ Light:
   serializedVersion: 9
   m_Type: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1
+  m_Intensity: 2
   m_Range: 7
   m_SpotAngle: 105
   m_InnerSpotAngle: 1
@@ -11858,7 +11858,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 663535060}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.30288565, y: 0.38, z: 0.6070137}
+  m_LocalPosition: {x: 0.30288565, y: 0.581, z: 0.6070137}
   m_LocalScale: {x: 0.2, y: 0.19, z: 0.2}
   m_Children: []
   m_Father: {fileID: 30708933}
@@ -13437,7 +13437,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &769464800
 Transform:
   m_ObjectHideFlags: 0
@@ -13989,7 +13989,7 @@ Light:
   serializedVersion: 9
   m_Type: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1
+  m_Intensity: 2
   m_Range: 6
   m_SpotAngle: 103
   m_InnerSpotAngle: 1
@@ -16041,7 +16041,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f54470b84827ed94e84f3e1c46a37ff4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
+  speed: 2
 --- !u!114 &907292812
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17844,8 +17844,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 987300045}
   m_LocalRotation: {x: 0.6304049, y: 0, z: 0, w: 0.7762665}
-  m_LocalPosition: {x: 0.30288565, y: 0.1375, z: 0.6070137}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_LocalPosition: {x: 0.30288565, y: 0.41, z: 0.61}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
   m_Children: []
   m_Father: {fileID: 1847325375}
   m_RootOrder: 1
@@ -17868,13 +17868,13 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 987300048}
-          m_MethodName: set_range
+          m_MethodName: set_intensity
           m_Mode: 4
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
-            m_FloatArgument: 50
+            m_FloatArgument: 4
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
@@ -17911,7 +17911,7 @@ Light:
   serializedVersion: 9
   m_Type: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1
+  m_Intensity: 2
   m_Range: 7
   m_SpotAngle: 103
   m_InnerSpotAngle: 1
@@ -21947,8 +21947,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1175465581}
   m_LocalRotation: {x: 0.6990697, y: 0.0068635857, z: -0.0067107663, w: 0.7149891}
-  m_LocalPosition: {x: -0.04, y: 0.23, z: -17.07}
-  m_LocalScale: {x: 0.5, y: 0.50000036, z: 0.5}
+  m_LocalPosition: {x: 0.011, y: 0.412, z: -17}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
   m_Children: []
   m_Father: {fileID: 1849393769}
   m_RootOrder: 0
@@ -21965,7 +21965,7 @@ Light:
   m_Type: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 10
-  m_Range: 5
+  m_Range: 7
   m_SpotAngle: 103
   m_InnerSpotAngle: 1
   m_CookieSize: 10
@@ -22006,7 +22006,7 @@ Light:
   m_Lightmapping: 1
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
-  m_BounceIntensity: 1
+  m_BounceIntensity: 4
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
@@ -25542,6 +25542,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1422140292}
     m_Modifications:
+    - target: {fileID: 1000013061525784, guid: ce7abbbeb276a1547bd8ce1069fdabb7, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4000012185119224, guid: ce7abbbeb276a1547bd8ce1069fdabb7, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.8491242
@@ -27206,7 +27210,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1339733896
 Transform:
   m_ObjectHideFlags: 0
@@ -29038,6 +29042,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: silla1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4224801822505238522, guid: 28de9e662ef99054ab33c328733ef2d9,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 28de9e662ef99054ab33c328733ef2d9,
         type: 3}
@@ -31023,7 +31032,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1535492460}
   m_LocalRotation: {x: -0.7071068, y: 0.000000061817246, z: 0.000000061817246, w: 0.7071068}
-  m_LocalPosition: {x: -1.4708519, y: -3.98, z: -3.786}
+  m_LocalPosition: {x: -1.4708519, y: -4.29, z: -3.786}
   m_LocalScale: {x: 1.24, y: -0.66, z: 1.29}
   m_Children:
   - {fileID: 1783221701}
@@ -31663,7 +31672,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1582925805}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.30288565, y: 0.53752565, z: 0.6070137}
+  m_LocalPosition: {x: 0.30288565, y: 0.59, z: 0.6070137}
   m_LocalScale: {x: 0.2, y: 0.19, z: 0.2}
   m_Children: []
   m_Father: {fileID: 1847325375}
@@ -32155,7 +32164,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1642976089
 Transform:
   m_ObjectHideFlags: 0
@@ -32202,8 +32211,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1643341710}
   m_LocalRotation: {x: 0.7442532, y: 0, z: 0, w: 0.6678975}
-  m_LocalPosition: {x: 0.30288565, y: 0.13752556, z: 0.6070137}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_LocalPosition: {x: 0.30288565, y: 0.41, z: 0.6070137}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
   m_Children: []
   m_Father: {fileID: 769464800}
   m_RootOrder: 1
@@ -32226,13 +32235,13 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 1643341713}
-          m_MethodName: set_range
+          m_MethodName: set_intensity
           m_Mode: 4
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
-            m_FloatArgument: 30
+            m_FloatArgument: 4
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
@@ -32258,7 +32267,7 @@ Light:
   serializedVersion: 9
   m_Type: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1
+  m_Intensity: 2
   m_Range: 7
   m_SpotAngle: 105
   m_InnerSpotAngle: 1
@@ -36133,7 +36142,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1847325374}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.86, y: -0.13752556, z: 35.23}
+  m_LocalPosition: {x: -2.86, y: -0.08, z: 36.17}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1582925806}
@@ -36830,8 +36839,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1943160559}
   m_LocalRotation: {x: 0.79916036, y: 0, z: 0, w: 0.60111797}
-  m_LocalPosition: {x: 0.30288565, y: -0.02, z: 0.6070137}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_LocalPosition: {x: 0.30288565, y: 0.41, z: 0.6070137}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
   m_Children: []
   m_Father: {fileID: 30708933}
   m_RootOrder: 1
@@ -36854,13 +36863,13 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 1943160562}
-          m_MethodName: set_range
+          m_MethodName: set_intensity
           m_Mode: 4
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
-            m_FloatArgument: 30
+            m_FloatArgument: 4
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
@@ -36924,7 +36933,7 @@ Light:
   serializedVersion: 9
   m_Type: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1
+  m_Intensity: 2
   m_Range: 7
   m_SpotAngle: 105
   m_InnerSpotAngle: 1
@@ -40694,7 +40703,7 @@ Light:
   serializedVersion: 9
   m_Type: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1
+  m_Intensity: 2
   m_Range: 7
   m_SpotAngle: 105
   m_InnerSpotAngle: 1
@@ -40733,7 +40742,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 1
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -41398,8 +41407,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2120278800}
   m_LocalRotation: {x: 0.6632219, y: -0.24307117, z: 0.25564176, w: 0.6600761}
-  m_LocalPosition: {x: 0.30288565, y: 0.13752556, z: 0.6070137}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_LocalPosition: {x: 0.30288565, y: 0.41, z: 0.6070137}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
   m_Children: []
   m_Father: {fileID: 1339733896}
   m_RootOrder: 1
@@ -41422,13 +41431,13 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 2120278803}
-          m_MethodName: set_range
+          m_MethodName: set_intensity
           m_Mode: 4
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
-            m_FloatArgument: 30
+            m_FloatArgument: 4
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
@@ -41454,7 +41463,7 @@ Light:
   serializedVersion: 9
   m_Type: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1
+  m_Intensity: 2
   m_Range: 7
   m_SpotAngle: 105
   m_InnerSpotAngle: 1
