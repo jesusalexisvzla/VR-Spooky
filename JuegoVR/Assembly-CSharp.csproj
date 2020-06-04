@@ -63,6 +63,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\CODIGOS\DesabilitarObjeto.cs" />
+    <Compile Include="Assets\CODIGOS\MostrarFPs.cs" />
+    <Compile Include="Assets\CODIGOS\Opttimizar.cs" />
+    <Compile Include="Assets\CODIGOS\Rendimiento.cs" />
+    <Compile Include="Assets\CODIGOS\RotarObjetos.cs" />
     <Compile Include="Assets\GoogleVR\Beta\Demos\Scripts\DemoObjectController6DoF.cs" />
     <Compile Include="Assets\GoogleVR\Beta\Demos\Scripts\DemoSeeThroughController.cs" />
     <Compile Include="Assets\GoogleVR\Beta\Scripts\GvrBetaControllerInput.cs" />

@@ -2,6 +2,7 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - CamaraMOvemets
+    - DesabilitarObjeto
     - GoogleVR.Demos.DemoInputManager
     - GoogleVR.Demos.DemoSceneManager
     - GoogleVR.HelloVR.HeadsetDemoManager
@@ -22,6 +23,10 @@ ScriptsOnlyBuild:
     - GvrReticlePointer
     - GvrTrackedController
     - InstantPreviewHelper
+    - Opttimizar
+    - PlayerMovimietos
+    - Rendimiento
+    - RotarObjetos
     - controllers
     Unity.TextMeshPro.dll:
     - TMPro.TMP_FontAsset
@@ -30,7 +35,6 @@ ScriptsOnlyBuild:
     - TMPro.TMP_StyleSheet
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
-    - UnityEditor.TestTools.TestRunner.TestListCacheData
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.EventTrigger
@@ -55,6 +59,8 @@ ScriptsOnlyBuild:
     - Class: 29
       Script: {instanceID: 0}
     - Class: 33
+      Script: {instanceID: 0}
+    - Class: 41
       Script: {instanceID: 0}
     - Class: 43
       Script: {instanceID: 0}
@@ -85,71 +91,81 @@ ScriptsOnlyBuild:
     - Class: 111
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 9774}
+      Script: {instanceID: 9792}
     - Class: 114
-      Script: {instanceID: 9810}
+      Script: {instanceID: 9820}
     - Class: 114
-      Script: {instanceID: 9938}
+      Script: {instanceID: 9830}
     - Class: 114
-      Script: {instanceID: 9956}
+      Script: {instanceID: 9976}
     - Class: 114
-      Script: {instanceID: 10000}
+      Script: {instanceID: 10020}
     - Class: 114
-      Script: {instanceID: 10126}
+      Script: {instanceID: 10146}
     - Class: 114
-      Script: {instanceID: 10176}
+      Script: {instanceID: 10196}
     - Class: 114
-      Script: {instanceID: 10192}
+      Script: {instanceID: 10212}
     - Class: 114
-      Script: {instanceID: 10278}
-    - Class: 114
-      Script: {instanceID: 10428}
+      Script: {instanceID: 10298}
     - Class: 114
       Script: {instanceID: 10448}
     - Class: 114
-      Script: {instanceID: 10770}
+      Script: {instanceID: 10470}
+    - Class: 114
+      Script: {instanceID: 10472}
     - Class: 114
       Script: {instanceID: 10796}
     - Class: 114
-      Script: {instanceID: 10954}
+      Script: {instanceID: 10822}
     - Class: 114
-      Script: {instanceID: 11048}
+      Script: {instanceID: 10868}
     - Class: 114
-      Script: {instanceID: 11066}
+      Script: {instanceID: 10902}
     - Class: 114
-      Script: {instanceID: 11082}
+      Script: {instanceID: 10984}
+    - Class: 114
+      Script: {instanceID: 11032}
+    - Class: 114
+      Script: {instanceID: 11080}
     - Class: 114
       Script: {instanceID: 11098}
     - Class: 114
-      Script: {instanceID: 11188}
+      Script: {instanceID: 11114}
     - Class: 114
-      Script: {instanceID: 11192}
+      Script: {instanceID: 11130}
     - Class: 114
-      Script: {instanceID: 11250}
+      Script: {instanceID: 11220}
     - Class: 114
-      Script: {instanceID: 11304}
+      Script: {instanceID: 11224}
     - Class: 114
-      Script: {instanceID: 11344}
+      Script: {instanceID: 11234}
+    - Class: 114
+      Script: {instanceID: 11284}
+    - Class: 114
+      Script: {instanceID: 11338}
     - Class: 114
       Script: {instanceID: 11378}
     - Class: 114
-      Script: {instanceID: 11392}
+      Script: {instanceID: 11412}
     - Class: 114
-      Script: {instanceID: 11520}
+      Script: {instanceID: 11426}
     - Class: 114
-      Script: {instanceID: 11678}
+      Script: {instanceID: 11554}
     - Class: 114
-      Script: {instanceID: 11706}
+      Script: {instanceID: 11712}
     - Class: 114
-      Script: {instanceID: 11754}
+      Script: {instanceID: 11740}
     - Class: 114
-      Script: {instanceID: 11766}
+      Script: {instanceID: 11756}
     - Class: 114
-      Script: {instanceID: 11780}
+      Script: {instanceID: 11790}
     - Class: 114
-      Script: {instanceID: 50306}
+      Script: {instanceID: 11802}
     - Class: 114
-      Script: {instanceID: 124684}
+      Script: {instanceID: 11816}
+    - Class: 114
+      Script: {instanceID: 20268}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -193,6 +209,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_SelectionCaret
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RotarObjetos
   - hash:
       serializedVersion: 2
       Hash: 2aeeec1b1a144c469cd2d37776bc2315
@@ -429,6 +451,12 @@ ScriptsOnlyBuild:
     className: ControlPlayableAsset
   - hash:
       serializedVersion: 2
+      Hash: 214f3a28910e91af078be89c0b0479a4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Rendimiento
+  - hash:
+      serializedVersion: 2
       Hash: b8a5e8091ab0b8861d2add371082c5e0
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -445,6 +473,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Selectable
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Script2
   - hash:
       serializedVersion: 2
       Hash: b3ab2106268377ffe25dd18ac23dca28
@@ -519,10 +553,22 @@ ScriptsOnlyBuild:
     className: Button
   - hash:
       serializedVersion: 2
+      Hash: afc5b93a7b192de2dcb3832fe35a5c7e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: controllers
+  - hash:
+      serializedVersion: 2
       Hash: feb9a5a121d15fa3654d4e50a5233045
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: RawImage
+  - hash:
+      serializedVersion: 2
+      Hash: f410dc81cf5e81e58a5ec03908e04837
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayerMovimietos
   - hash:
       serializedVersion: 2
       Hash: 5ad4aa237d47ac2bab17bacb672edf7a
@@ -541,6 +587,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: GoogleVR.Beta
     className: GvrBetaHeadset
+  - hash:
+      serializedVersion: 2
+      Hash: 9371903eb7aba9c34c5caba4abc7dca3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Opttimizar
   - hash:
       serializedVersion: 2
       Hash: 783f593b9380cf72d0f7ebfd4a0d4bcd
@@ -613,6 +665,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GvrHeadset
+  - hash:
+      serializedVersion: 2
+      Hash: 56192d9f8c5900d983a62f8ebf62e062
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DesabilitarObjeto
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -777,6 +835,12 @@ ScriptsOnlyBuild:
     className: TMP_SubMesh
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CamaraMOvemets
+  - hash:
+      serializedVersion: 2
       Hash: 20eeaeae829475b5e354d1f626c51a2b
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner
@@ -865,19 +929,7 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: afc5b93a7b192de2dcb3832fe35a5c7e
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: controllers
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CamaraMOvemets
   platform: 13
   scenePathNames:
   - Assets/GoogleVR/Demos/Scenes/HelloVR.unity
-  playerPath: C:/Users/Joslo/OneDrive/Desktop/SpookyOriginalConMovimientos.apk
+  playerPath: C:/Users/Joslo/OneDrive/Desktop/original1.apk
