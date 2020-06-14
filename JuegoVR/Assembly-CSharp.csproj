@@ -63,11 +63,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\CODIGOS\ActivarColision.cs" />
+    <Compile Include="Assets\CODIGOS\ApagarFoco.cs" />
+    <Compile Include="Assets\CODIGOS\BoxCHabilitar.cs" />
+    <Compile Include="Assets\CODIGOS\Colisionar.cs" />
+    <Compile Include="Assets\CODIGOS\ColisionarDesactivarObjeto.cs" />
     <Compile Include="Assets\CODIGOS\DesabilitarObjeto.cs" />
     <Compile Include="Assets\CODIGOS\MostrarFPs.cs" />
     <Compile Include="Assets\CODIGOS\Opttimizar.cs" />
     <Compile Include="Assets\CODIGOS\Rendimiento.cs" />
     <Compile Include="Assets\CODIGOS\RotarObjetos.cs" />
+    <Compile Include="Assets\CODIGOS\TirarObjeto.cs" />
     <Compile Include="Assets\GoogleVR\Beta\Demos\Scripts\DemoObjectController6DoF.cs" />
     <Compile Include="Assets\GoogleVR\Beta\Demos\Scripts\DemoSeeThroughController.cs" />
     <Compile Include="Assets\GoogleVR\Beta\Scripts\GvrBetaControllerInput.cs" />
@@ -234,31 +240,31 @@
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>C:/Users/jesus/Documents/VR-Spooky/VR-Spooky/JuegoVR/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>C:/Users/Joslo/OneDrive/Documents/VR-Spooky/VR-Spooky/JuegoVR/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>C:/Users/jesus/Documents/VR-Spooky/VR-Spooky/JuegoVR/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>C:/Users/Joslo/OneDrive/Documents/VR-Spooky/VR-Spooky/JuegoVR/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/jesus/Documents/VR-Spooky/VR-Spooky/JuegoVR/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/Joslo/OneDrive/Documents/VR-Spooky/VR-Spooky/JuegoVR/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Users/jesus/Documents/VR-Spooky/VR-Spooky/JuegoVR/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>C:/Users/Joslo/OneDrive/Documents/VR-Spooky/VR-Spooky/JuegoVR/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>C:/Users/jesus/Documents/VR-Spooky/VR-Spooky/JuegoVR/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>C:/Users/Joslo/OneDrive/Documents/VR-Spooky/VR-Spooky/JuegoVR/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/jesus/Documents/VR-Spooky/VR-Spooky/JuegoVR/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/Joslo/OneDrive/Documents/VR-Spooky/VR-Spooky/JuegoVR/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>C:/Users/jesus/Documents/VR-Spooky/VR-Spooky/JuegoVR/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>C:/Users/Joslo/OneDrive/Documents/VR-Spooky/VR-Spooky/JuegoVR/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/jesus/Documents/VR-Spooky/VR-Spooky/JuegoVR/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/Joslo/OneDrive/Documents/VR-Spooky/VR-Spooky/JuegoVR/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>C:/Users/jesus/Documents/VR-Spooky/VR-Spooky/JuegoVR/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>C:/Users/Joslo/OneDrive/Documents/VR-Spooky/VR-Spooky/JuegoVR/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -432,7 +438,7 @@
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
     </Reference>
     <Reference Include="Google.ProtocolBuffers">
-      <HintPath>C:/Users/jesus/Documents/VR-Spooky/VR-Spooky/JuegoVR/Assets/GoogleVR/Plugins/Google.ProtocolBuffers.dll</HintPath>
+      <HintPath>C:/Users/Joslo/OneDrive/Documents/VR-Spooky/VR-Spooky/JuegoVR/Assets/GoogleVR/Plugins/Google.ProtocolBuffers.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
